@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+     <style>
+         body{
+    
+    font-family: sans-serif;}
+
+    .container{
+        background: #948ec2;
+        min-height: 100vh;
+        width: 100%;
+    }
+    .container h2{
+        color: #fff;
+        font: 32px;
+        padding: 50px 0 ;
+        text-align: center;
+    }
+    
+    .price-row{
+        width: 400px;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-gap: 25pxs;
+    }
+    .price-col{
+        background: #252e43;
+        padding: 10% 15%;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+    }
+    .price-col p{
+        font-size: 25px;
+    }
+    .price-col h3{
+        font-size: 45px;
+        margin: 20px 0 40px;
+        font-weight: 500;
+    }
+    .price-col span{
+        font-size: 15px;
+    }
+    .price-col ul{
+    text-align: left;
+    margin: 20px 0;
+    color: #ddd;
+    list-style: none;
+
+    }
+    .price-col ul li{
+        margin: 15px 0;
+    }
+    .price-col ul li::before {
+        content: '\2022';
+        color: aquamarine;
+        font-weight: bold;
+        margin-right: 8px;
+    }
+    .price-col button{
+        width: 100%;
+    padding: 14px 0;
+    border-radius: 6px;
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: aquamarine;
+    }
+
+    
+
+    .nav-links{
+        display: flex;
+    
+    }
+    .nav-items
+           {
+                  color: rgb(20, 1, 1);
+                  text-decoration: none;
+                  padding: 5px 20px;
+            }
+
+    
+      </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <h2> SELECT YOUR PLAN </h2>
+            <div class="nav-html">
+                <a href="./index.html" class="nav-items" >Home </a>
+                <a href="./basic.html" class="nav-items"> Basic Plan</a>
+                <a href="./premium.html" class="nav-items">Premium Plan</a>
+                <a href="./standard.html" class="nav-items">Standard Plan</a>
+                <div class="price-row">
+                    <div class="price-col">
+                        <p>Premium Plan</p>
+                        <h3> $50<span>\ monthly</span></h3>
+                        <ul>
+                            <li>120 GB Storage</li>
+                            <li>5 User Allowed</li>
+                            <li>Send up 6 GB</li>
+                            <li>Limited Support</li>
+                        </ul>
+                        <button>Sign up</button>
+                    </div>
+                </div>
+            
+            
+            
+            </div>
+            
+        
+        
+        </div>    
+        
+        
+    </body>
